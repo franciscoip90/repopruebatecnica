@@ -1,0 +1,5 @@
+0. Cantidad total de registros: 5000
+○ Cantidad de registros con HTTP 200: 0
+○ Registros con timestamp 2022-02-04T16:21: 3059
+○ Registros con USER AGENT Dalvik/2.1.0: 1776
+○ Se generó el archivo nginx_sub.log con las últimas 1500 líneas.
