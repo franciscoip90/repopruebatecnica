@@ -1,0 +1,7 @@
+[Unit]
+Description=Recolecta info script
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/recolecta_info.sh
+User=ubuntu

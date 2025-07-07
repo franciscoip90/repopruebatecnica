@@ -1,0 +1,12 @@
+server {
+	listen 80;
+	server_name interno.mediastre.am;
+	root /var/www/interno;
+	
+	location / {
+		allow 127.0.0.1;
+		deny all;
+		index index.html;
+	}
+}
+

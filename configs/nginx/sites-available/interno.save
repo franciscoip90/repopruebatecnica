@@ -1,0 +1,26 @@
+drwxr-xr-x  4 root root 4096 Jul  7 14:20 .
+drwxr-xr-x 14 root root 4096 Jul  7 14:13 ..
+drwxr-xr-x  2 root root 4096 Jul  7 14:18 html
+drwxr-xr-x  2 root root 4096 Jul  7 14:20 interno
+ubuntu@ip-192-168-1-85:/var/www$ cd interno/
+ubuntu@ip-192-168-1-85:/var/www/interno$ sudo nano index.html
+ubuntu@ip-192-168-1-85:/var/www/interno$ cat index.html
+
+<h1 style="color: #;"><span style="color: #99cc00;">Test mdstrm</span>&nbsp;<span style="color: #000000; background-color:#ffffff;">accesible desde localhost</span></h1>
+ubuntu@ip-192-168-1-85:/var/www/interno$ sudo nano /etc/nginx/sites-available/interno
+  GNU nano 4.8                                                           /etc/nginx/sites-available/interno                                                            Modified
+seEste sitio ya estará accesible desde internet si el puerto 80 está abierto en el firewall o grupo de seguridad.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

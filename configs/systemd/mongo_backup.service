@@ -1,0 +1,7 @@
+[Unit]
+Description=MongoDB Backup Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/mongo_backup.sh
+User=root
